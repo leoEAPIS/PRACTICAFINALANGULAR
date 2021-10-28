@@ -1,0 +1,12 @@
+<button type="button" class="btn btn-primary" (click)="show=!show">POST COMPONENT </button>
+<br>
+<br>
+<div *ngIf="show">
+    <h1>Services post</h1>
+    <div class="row">
+        <div *ngFor="let data of listdate" class="col">
+            <h3>Title: {{data.title | slice:0:10}} </h3>
+            <h6>Body: {{data.body | slice:0:50}}</h6>
+        </div>
+    </div>
+</div>

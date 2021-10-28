@@ -1,0 +1,24 @@
+<button type="button" class="btn btn-primary" (click)="show=!show">PERU COMPONENT </button>
+<br>
+<br>
+<table class="table table-dark" *ngIf="show">
+
+    <thead>
+        <tr>
+            <th scope="col">CÓDIGO</th>
+            <th scope="col">NOMBRE</th>
+            <th scope="col">CAPITAL</th>
+            <th scope="col">CONTINENTE</th>
+            <th scope="col">DEMONYM</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let pais of perudata">
+            <td>{{pais.ccn3}}</td>
+            <td>{{pais.name.official}}</td>
+            <td>{{pais.capital}}</td>
+            <td>{{pais.region}}</td>
+            <td>{{pais.demonym}}</td>
+        </tr>
+    </tbody>
+</table>

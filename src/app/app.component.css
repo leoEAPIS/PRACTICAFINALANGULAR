@@ -1,0 +1,29 @@
+.col-4 {
+    background-color: aqua;
+}
+
+.foot-1 {
+    background-color: burlywood;
+}
+
+.col-8 {
+    background-color: coral;
+}
+
+.col-8 div {
+    background-color: darkgoldenrod;
+}
+
+.compone {
+    margin-top: 30px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.container {
+    background: darkseagreen;
+}
+
+.menu {
+    background-color: darkseagreen;
+}

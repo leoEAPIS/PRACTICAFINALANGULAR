@@ -1,0 +1,14 @@
+<h3>DATOS PERSONALES </h3>
+
+<h5>Nombre: {{nombre}}</h5>
+<h5>Email: <a href="mailto:{{email}}">{{email}}</a></h5>
+<h5>Dirección: {{direccion}}</h5>
+<h5>Teléfono: {{telefono}}</h5>
+<div class="row p-3">
+    <div *ngFor="let social of socialMedia" class="{{social.icon}} col"><a href="{{social.url}}">{{social.name}} </a></div>
+</div>
+
+<div class="col p-4">
+    <h5>IFORMACIÓN</h5>
+    <p>Hola soy Leopoldo Zelada estudiante de Ingenieria Sistemas en la Universidad Nacional de Cajamarca.Actualmente me encuentro en cidad de Lima por razones de trabajo, mis pasatiempos son escuchar musica y salir a correr. </p>
+</div>
